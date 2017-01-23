@@ -1,0 +1,28 @@
+.navBackground
+{
+	background: #0084b4;
+}
+
+.colorClass
+{
+	te: white;
+}
+
+.navCenter
+{
+	img-a: center;
+
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.labelClass
+{
+	font-family: "Times New Roman";
+	font-size: 40px;
+
+}
