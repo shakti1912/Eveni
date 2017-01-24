@@ -18,7 +18,7 @@ echo '
 <nav class="navBackground  navbar navbar-default">
   <div class="container-fluid">
     <div class=" navbar-header">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="controllers/brandController.php">
         <img class = "center-block" alt="Eveni" src="...">
       </a>
     </div>

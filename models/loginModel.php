@@ -24,7 +24,88 @@ class LoginModel
 			$_SESSION["LName"] = $last;
 
 		$welcomeMessage =  "Welcome Back ".$first." ".$last." to Eveni!";
-		$toAdd = "";
+		$toAdd = '
+		<div class="row">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="row">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="./../images/me1.jpeg" alt="shakti">
+      <div class="caption">
+        <h3>Thumbnail</h3>
+                
+      </div>
+    </div>
+  </div>
+
+</div>
+     
+     
+</div>';
 			require_once('./../views/welcomeView.php');
 			$welView = new welcomeView();
 			$welView->renderView($welcomeMessage, $toAdd);
