@@ -15,7 +15,7 @@ $_SESSION['FName'] = $FName;
 $_SESSION['LName'] = $LName;
 
 //Uncomment this line to create DB.
-//require_once('./../configs/createDB.php');
+require_once('./../configs/createDB.php');
 
 $arr = array($FName, $LName, $Email, $Password);
 require_once('./../models/signUpModel.php');

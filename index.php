@@ -18,12 +18,20 @@ echo '
 <nav class="navBackground  navbar navbar-default">
   <div class="container-fluid">
     <div class=" navbar-header">
+<<<<<<< Updated upstream
       <a class="navbar-brand" href="controllers/brandController.php">
         <img class = "center-block" alt="Eveni" src="...">
+=======
+      <a class="navbar-brand" href="#">
+       
+>>>>>>> Stashed changes
       </a>
     </div>
   </div>
   </nav>
+  <div class= "container-fluid">
+  <img class = "center-block" alt= "Eveni" src="whitecon1copy.png"
+  </div>
 
 <div class="row">
  <div class="col-md-1"> 

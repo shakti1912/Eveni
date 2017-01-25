@@ -37,12 +37,24 @@ public function renderView($message, $toAdd)
     </div>
     </nav>
 
-
+    <div class="container">
      <div class="row">
  <div class="col-md-3"> 
- <span>
- <p class="bg-primary" style="font-size: 25px; text-align: center;">MENU</p></span>
- <ul class="nav" style="background-color: #bfbfbf;">
+
+
+ <div class="row">
+ <div class= "col-xs-12">
+ <p class="bg-primary" style="font-size: 25px; text-align: center;">YOUR PROFILE</p>
+ <img src="" class="img-thumbnail img-responsive" alt="add pic" width="350" height="1000">
+ </div>
+ </div>
+
+
+ <div class="row">
+ <div class= "col-xs-12">
+ 
+ <p class="bg-primary" style="font-size: 25px; text-align: center;">MENU</p>
+ <ul class="nav" style="background-color: white ;">
 
  <!--<li class="active"><a href="#" class="navBackground" style="color: white;">NAVIGATION</a></li>-->
 
@@ -52,10 +64,8 @@ public function renderView($message, $toAdd)
  <li> <a href="./../views/createEventView.php" style="font-size: 20px; text-align: center;">Create Event</a></li>
       </ul>
 
-<br>
-<span>
- <p class="bg-primary" style="font-size: 25px; text-align: center;">YOUR PROFILE</p></span>
-      
+      </div>
+      </div>
       </div>
 
 
@@ -63,8 +73,15 @@ public function renderView($message, $toAdd)
  <p style="font-size: 20px; font-family: serif; text-align: center;">
     <?= $message ?>
     <?= $toAdd ?>
+<<<<<<< Updated upstream
     
 </p>
+=======
+     
+     </p>
+ 
+ </div>
+>>>>>>> Stashed changes
 </div>
 
     <!-- Latest compiled and minified JavaScript -->
